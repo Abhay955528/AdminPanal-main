@@ -1,0 +1,83 @@
+[
+    {
+      "productName": "Product 1",
+      "date": "2023-10-30",
+      "productImage": "image_url_1.jpg",
+      "icon": "icon_url_1.png",
+      "slug": "product-1",
+      "options": ["Option 1A", "Option 1B", "Option 1C"]
+    },
+    {
+      "productName": "Product 2",
+      "date": "2023-10-29",
+      "productImage": "image_url_2.jpg",
+      "icon": "icon_url_2.png",
+      "slug": "product-2",
+      "options": ["Option 2A", "Option 2B", "Option 2C"]
+    },
+    {
+      "productName": "Product 3",
+      "date": "2023-10-28",
+      "productImage": "image_url_3.jpg",
+      "icon": "icon_url_3.png",
+      "slug": "product-3",
+      "options": ["Option 3A", "Option 3B", "Option 3C"]
+    },
+    {
+      "productName": "Product 4",
+      "date": "2023-10-27",
+      "productImage": "image_url_4.jpg",
+      "icon": "icon_url_4.png",
+      "slug": "product-4",
+      "options": ["Option 4A", "Option 4B", "Option 4C"]
+    },
+    {
+      "productName": "Product 5",
+      "date": "2023-10-26",
+      "productImage": "image_url_5.jpg",
+      "icon": "icon_url_5.png",
+      "slug": "product-5",
+      "options": ["Option 5A", "Option 5B", "Option 5C"]
+    },
+    {
+      "productName": "Product 6",
+      "date": "2023-10-25",
+      "productImage": "image_url_6.jpg",
+      "icon": "icon_url_6.png",
+      "slug": "product-6",
+      "options": ["Option 6A", "Option 6B", "Option 6C"]
+    },
+    {
+      "productName": "Product 7",
+      "date": "2023-10-24",
+      "productImage": "image_url_7.jpg",
+      "icon": "icon_url_7.png",
+      "slug": "product-7",
+      "options": ["Option 7A", "Option 7B", "Option 7C"]
+    },
+    {
+      "productName": "Product 8",
+      "date": "2023-10-23",
+      "productImage": "image_url_8.jpg",
+      "icon": "icon_url_8.png",
+      "slug": "product-8",
+      "options": ["Option 8A", "Option 8B", "Option 8C"]
+    },
+    {
+      "productName": "Product 9",
+      "date": "2023-10-22",
+      "productImage": "image_url_9.jpg",
+      "icon": "icon_url_9.png",
+      "slug": "product-9",
+      "options": ["Option 9A", "Option 9B", "Option 9C"]
+    },
+    {
+      "productName": "Product 10",
+      "date": "2023-10-21",
+      "productImage": "image_url_10.jpg",
+      "icon": "icon_url_10.png",
+      "slug": "product-10",
+      "options": ["Option 10A", "Option 10B", "Option 10C"]
+    }
+  ]
+  

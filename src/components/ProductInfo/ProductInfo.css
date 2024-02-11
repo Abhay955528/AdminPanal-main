@@ -1,0 +1,280 @@
+.mainDiv {
+  background-color: whitesmoke;
+  margin-left: 20%;
+  margin-top: 1rem;
+  padding-top: 10%;
+  padding-bottom: 20px;
+}
+
+.DefaulUploadIcon {
+  background-color: inherit;
+  border: 1px dotted black;
+  width: 70%;
+  height: 30vh;
+  border-radius: 8px;
+}
+
+.ProductInfo {
+  padding: 1rem;
+  /* margin-left: 23.5%; */
+  font-size: 20px;
+  width: 50%;
+}
+
+.ProductInfoName {
+  padding: .8rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  font-size: 15px;
+
+}
+
+.ProductInfoMain {
+  width: 80%;
+  margin-left: 10%;
+  background-color: white;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 10%;
+}
+
+label {
+  font-size: 18px;
+  /* color: #4A5568; */
+}
+
+.input {
+  outline: none;
+  border-radius: 5px;
+  width: 70%;
+  height: 8vh;
+
+  border: none;
+  background-color: whitesmoke;
+  text-align: center;
+  /* text-align: justify; */
+  color: #4A5568;
+}
+
+#buttonProduct {
+  width: 80%;
+  margin-left: 3rem;
+  height: 10vh;
+  margin-top: 1.5rem;
+  background-color: #0da487;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#ProductInfoSwitch {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2em;
+  width: 38%;
+
+}
+
+#flexSwitchCheckDefault {
+  font-size: 22px;
+}
+
+#flexSwitchCheckChecked {
+  font-size: 22px;
+}
+
+.Description {
+  width: 50%;
+  margin-left: 25%;
+  background-color: white;
+  height: 80vh;
+  border-radius: 10px;
+  margin-top: 8%;
+
+}
+
+.Category_container_ProductInfo {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 5%;
+  width: 50%;
+  background-color: white;
+  padding: 20px;
+  height: 80vh;
+  align-content: space-between;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin-left: 25%;
+  gap: 10px;
+}
+
+.Category_container div {
+  display: flex;
+  width: 100%;
+  gap: 40px;
+  align-items: center;
+}
+
+.Category_container>div:first-child h1 {
+  font-size: 1.4rem
+}
+
+.Category_container div input,
+select {
+  width: 30vw;
+  padding: 4px 20px;
+  font-size: 1.1rem;
+  border-radius: 4px;
+  outline: none;
+  background-color: #f8f8f8;
+  border: none;
+
+}
+
+.Category_container div span {
+  width: 38%;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+table,
+th,
+td {
+  border-collapse: collapse;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+table {
+  margin-left: 1rem;
+}
+
+#ProdutInfoInput {
+  width: 6.5rem;
+  /* padding: 5px; */
+  /* margin-top: 20px; */
+  height: 30px;
+  background-color: rgba(234, 215, 215, 0.893);
+  display: flex;
+  gap: 10px;
+
+}
+
+#ProdutInfoInput1 {
+  /* border: 1px solid black; */
+  padding: 0px 10px;
+  height: 50px;
+}
+
+#ProdutInfoInput1 input {
+  border: 1px solid rgba(243, 247, 249, 0.903);
+}
+
+option {
+  text-align: left;
+}
+
+@media only screen and (max-width: 800px) {
+  .mainDiv {
+    margin-top: 6rem;
+  }
+
+  label {
+    font-size: 14px;
+    /* color: #4A5568; */
+    margin-top: .7rem;
+  }
+
+  .ProductInfo {
+    font-size: 20px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .mainDiv {
+    margin-top: 8%;
+  }
+
+  .mainDiv {
+    margin-top: 6rem;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+  .mainDiv {
+    margin-top: 6vh;
+  }
+
+  .mainDiv {
+    background-color: whitesmoke;
+    margin-left: -8%;
+    /* padding-top: 10%; */
+    padding-bottom: 20px;
+    /* width: 100vw; */
+  }
+  .ProductInfoMain{
+    width: 94vw;
+   
+  }
+  .DefaulUploadIcon {
+    background-color: inherit;
+    border: 1px dotted black;
+    width: 89vw;
+    height: 30vh;
+    border-radius: 8px;
+  }
+
+  .ProductInfoName {
+    /* display: ; */
+    margin-top: -1rem;
+    display: grid;
+  }
+
+  .input {
+    margin-top: 0rem;
+    width: 88vw;
+    padding: 10px;
+    /* border: 1px solid red; */
+  }
+
+  label {
+  font-size: 18px;
+    margin-top: 0rem;
+  }
+  #flexSwitchCheckChecked {
+    font-size: 22px;
+    margin-left: -34px;
+  }
+  #flexSwitchCheckDefault{
+    margin-left: -34px;
+
+  }
+  .buttonPro {
+    margin-left: 4%;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #0da487;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 5px 0 #2980b9;
+    transition: box-shadow 0.3s, transform 0.3s;
+  }
+  
+  .buttonPro:hover {
+    box-shadow: 0 3px 0 #2980b9;
+    transform: translateY(2px);
+  }
+  
+  .buttonPro:active {
+    box-shadow: none;
+    transform: translateY(4px);
+  }
+}

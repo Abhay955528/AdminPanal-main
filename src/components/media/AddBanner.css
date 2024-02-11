@@ -1,0 +1,181 @@
+.AddMedia_container {
+  margin-top: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 25%;
+  border: 1px dashed gray;
+  width: fit-content;
+  gap: 20px;
+  padding: 20px;
+  height: fit-content;
+}
+
+.AddBannerMainCantaner {
+  width: 100vw;
+}
+
+.AddMedia_container div {
+  width: 100%;
+}
+
+.Form_container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: fit-content;
+}
+
+.AddMedia_container .Form_container>div:first-child {
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.AddMedia_container .Form_container>div div {
+  color: white;
+  text-align: center;
+  padding: 8px 0px;
+  /* border: 1px solid black; */
+}
+
+.tabs div {
+  background-color: rgb(76, 159, 120);
+  /* color: white;
+    text-align: center;
+    padding: 8px 0px;
+    border: 1px solid white; */
+}
+
+.AddMedia_container .Form_container>div:nth-child(3),
+.AddMedia_container .Form_container>div:nth-child(2) {
+  display: flex;
+  font-size: 1.2rem;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.AddMedia_container .Form_container>div:nth-child(3) input,
+.Form_container>div:nth-child(2) select {
+  padding: 8px;
+  background-color: #cbcbcc3f;
+  border-radius: 5px;
+}
+
+.AddMedia_container .Form_container>div:nth-child(4)>div {
+  width: 100%;
+  height: 15vh;
+  border: 1px dashed gray;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.upleadedImage {
+  width: 100%;
+  height: 15vh;
+  /* background-size: contain; */
+  object-fit: contain;
+  padding: 10px;
+}
+
+.DefaulUploadIcon {
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.DefaulUploadIcon>p {
+  color: black;
+}
+
+.AddMedia_container .Form_container>div:nth-child(5)>button {
+  font-size: 1.2rem;
+  width: fit-content;
+  height: 5vh;
+  border: none;
+  background-color: rgb(76, 159, 120);
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.AddMedia_container .Form_container>div:nth-child(5) {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 500px) {
+  .AddBannerMainCantaner {
+    display: grid;
+    flex-direction: column;
+
+  }
+
+  .TitleAddBanerUse {
+    margin-right: 13rem;
+  }
+
+  .TitleAddBaner {
+    /* margin-left: -52%; */
+    /* left: 10px; */
+    font-size: 18px;
+  }
+
+  .AddBannerInput {
+    width: 90vw;
+    height: 7vh;
+    /* border: 1px solid black; */
+    background-color: whitesmoke;
+  }
+
+  .AddMedia_container {
+    margin-top: 17vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 3%;
+    border: 1px dashed gray;
+    /* width: -moz-fit-content; */
+    /* width: fit-content; */
+    gap: 20px;
+    padding: 7px;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin-right: 5px;
+    width: 95vw;
+  }
+
+  .AddMedia_container .Form_container>div:nth-child(3) input,
+  .Form_container>div:nth-child(2) select {
+    padding: 5px;
+    background-color: #cbcbcc3f;
+    border-radius: 5px;
+  }
+
+  .AddMedia_container .Form_container>div:nth-child(3),
+  .AddMedia_container .Form_container>div:nth-child(2) {
+    display: flex;
+    font-size: 14px;
+    align-items: start;
+    gap: 20px;
+    justify-content: space-between;
+  }
+
+  .labal {
+    /* font-size: 14px; */
+  }
+  .flexSwitchCheckCheckedAdd{
+  
+  }
+
+}

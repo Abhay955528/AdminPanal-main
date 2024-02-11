@@ -1,0 +1,74 @@
+.Coupon_input_field {
+    width: 50vw;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    border-radius: 4px;
+    outline: none;
+    background-color: whitesmoke;
+    border: none;
+
+}
+
+.Coupon_contaner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.maincoupon {
+    width: 73vw;
+    margin-left: 23%;
+}
+.CouponButton{
+    /* width: "60%",
+    height: "7vh",
+    borderRadius: "8px",
+    border: "none",
+    backgroundColor: "#0da487",
+    fontSize: "21fpx",
+    marginLeft: '31%',
+    marginTop: "1rem" */
+    width: 60%;
+    height: 7vh;
+    border-radius: 8px;
+    border: none;
+    background-color: #0da487;
+    font-size:21fpx ;
+    margin-left: 31%;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width:500px) {
+    .maincoupon {
+        width: 95vw;
+        margin-left: 1%;
+    }
+    .Generalpage{
+        margin-top: -3rem;
+    }
+
+    .Coupon_contaner {
+        display: block;
+        margin-left: -15px;
+
+    }
+
+    .Coupon_input_field {
+        width: 88vw;
+        /* border: 1px solid red; */
+        margin-top: .8rem;
+        font-size: 17px;
+    }
+
+    .titleCoupon {
+       font-size: 17px;
+    }
+    .CouponButton{
+        margin-left: -1rem;
+    }
+    .titleCouponHeader{
+        margin-left: -1rem;
+    }
+
+}

@@ -1,0 +1,113 @@
+.contain {
+  border-radius: 1px solid black;
+  box-shadow: 0 4px 8px 0 rgba(29, 16, 145, 0.2);
+}
+
+.success {
+  border-color: #361460;
+  color: green;
+}
+.ReviewMainCardCantaner{
+  display: none;
+}
+.success:hover {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.mainreviewsection {
+  width: 73%;
+  margin-left: 25%;
+  margin-top: 18vh;
+  padding: 1rem;
+  border-radius: 10px;
+  box-Shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-imageReview{
+  margin-top: 25px;
+  justify-content: center;
+  display: flex;
+}
+
+.card-imageReview img{
+ width: 30vw;
+}
+
+.ProductReviewcard {
+  display: none;
+}
+
+.cName{
+  font-size: 1.1rem;
+}
+
+@media screen and (max-width:500px) {
+  .mainreviewsection {
+    width: 100vw;
+    margin-left: 0%;
+    margin-top: 10vh;
+  }
+  .DivSearchAndINput{
+    /* border: 1px solid red; */
+    width: 94vw;
+  }
+  .NavInput{
+    width: 82vw;
+  }
+
+  .ProductReviewcard {
+    display: unset;
+  }
+
+  .contain {
+    display: none;
+  }
+
+  /* CardComponent.css */
+
+.ReviewMainCardCantaner{
+  box-Shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 1.5rem;
+  display: unset;
+  /* border: 1px solid black; */
+
+
+}
+
+  .card-header {
+    margin-top: 1.5rem;
+    background-color: #f0f0f0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    width: 100%;
+   
+  }
+
+  
+
+   .card-body {
+    padding: 15px;
+  } 
+
+  .card-body h2 {
+    margin-top: 0;
+    font-size: 18px;
+    
+
+  }
+
+  .card-body p {
+    color: #666;
+  }
+
+  .rating {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #ff9800;
+  }
+
+}
+

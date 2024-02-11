@@ -1,0 +1,139 @@
+.MainContainer {
+  width: 77.9vw;
+  margin-left: 22%;
+  height: 15vh;
+  box-shadow: 5px, 5px, 10px, 5px black;
+  background-color: #fff;
+  position: fixed;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+  top: 0px;
+}
+
+.SideNav {
+  display: none;
+}
+.DivSearch{
+  margin-left: 40%;
+}
+
+.DivSearchAndINput {
+  width: 24vw;
+  border-radius: 5px;
+  margin-left: 10%;
+}
+
+.GrNotification {
+  margin-left: 43%;
+}
+
+.BiMoon {
+  margin-left: 2.5%;
+}
+
+.logInCcon {
+  margin-left: 2.5%;
+}
+
+.NavInput {
+  width: 30vw;
+  height: 6vh;
+  outline: none;
+  border: none;
+  background-color: whitesmoke;
+  margin-left: 2%;
+  padding: 14px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.NavSearch {
+  font-size: 2vw;
+  background-color: rgb(251, 157, 51);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+@media only screen and (max-width: 500px) {
+  .MainContainer {
+    width: 100vw;
+    margin-left: 0%;
+    box-shadow: 5px, 5px, 10px, 5px black;
+    background-color: #fff;
+    position: fixed;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    height: 6vh;
+    /* border:1px solid black; */
+    justify-content: space-between;
+  }
+  .DivSearch{
+    margin-left: 0%;
+  }
+  
+
+  .SideNav {
+    display: unset;
+  }
+
+
+
+  .NavInput {
+    width: 25vw;
+  }
+
+  .DivSearchAndINput {
+    /* margin-left: 5%; */
+    margin-top: 1.3rem;
+    /* width: 100vw; */
+  }
+
+
+
+  .MainContainer {
+    width: 100%;
+    height: 10vh;
+  }
+
+  .NavInput {
+    width: 55vw;
+    margin: 0%;
+    height: 9vh;
+    outline: none;
+    border: none;
+    background-color: whitesmoke;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:5px;
+  }
+
+  .NavSearch {
+    font-size: 35px;
+    background-color: #0da487;
+    width: 10vw;
+    text-align: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    /* border-radius: 5px ; */
+    /* background-color: #fff; */
+  }
+
+  .DivSearchAndINput {
+    width: 65vw;
+    margin-left: 4%;
+    height: 6vh;
+  }
+
+  .logInCcon {
+    margin-left: 4%;
+  }
+}
