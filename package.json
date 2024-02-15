@@ -1,6 +1,6 @@
 {
   "name": "dash",
-  "version": "0.1.76",
+  "version": "0.1.77",
   "homepage": "http://localhost:3001/my-app",
   "private": true,
   "dependencies": {
